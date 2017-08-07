@@ -17,9 +17,9 @@ else
     PYTHON_CMD=`which python`
 fi
 
-LOCK_FILE="$WORKING_DIR/ping_server.lock"
-if [ ! -r "$LOCK_FILE" ]; then
-    echo $(date +'%Y%m%d_%H%M%S') > "$LOCK_FILE"
-    eval "$PYTHON_CMD $WORKING_DIR/ping_server.py"
-    rm -f "$LOCK_FILE"
-fi
+for ip in `cat $WORKING_DIR/server.list`; do
+    LOCK_FILE="$WORKING_DIR/ping_server${ip}.lock"
+    if [ ! -r "$LOCK_FILE" ]; then
+        eval "(echo $(date +'%Y%m%d_%H%M%S') > "$LOCK_FILE" ; $PYTHON_CMD $WORKING_DIR/ping_server.py $ip ; rm -f "$LOCK_FILE") &"
+    fi
+done

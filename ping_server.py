@@ -3,6 +3,7 @@ import logging.handlers
 import json
 import os
 import subprocess
+import sys
 
 import gevent
 
@@ -72,7 +73,7 @@ class Watcher(object):
             get_config(self.json_config, 'ping_slow_threshold', 500),
             get_config(self.json_config, 'ping_timeout', 30)
         )
-        self.ip_list = get_config(self.json_config, 'servers')
+
         self.fail_threshold = get_config(self.json_config,
                                          'looping_check_fail_threshold',
                                          10)
@@ -82,9 +83,6 @@ class Watcher(object):
         self.looping_interval = get_config(self.json_config,
                                            'looping_check_interval',
                                            30)
-        if self.ip_list is None:
-            send_alert('No server to check')
-            exit(1)
 
         self.ok_list = []
         self.fail_list = []
@@ -92,7 +90,7 @@ class Watcher(object):
     def check(self, ip):
         """Ping to server and check result"""
         try:
-            out, _ = self.pinger.ping_server(ip['ip'])
+            out, _ = self.pinger.ping_server(ip)
             if not self.pinger.is_result_ok(out):
                 return False
                 # bot.respond(bot.get_admin_channel(), "res is not ok")
@@ -106,17 +104,17 @@ class Watcher(object):
 
     @staticmethod
     def cb_ok(self, ip):
-        log.info('[%20.20s] looping check total: OK.' % ip['name'])
+        log.info('[%15.15s] looping check total: OK.' % ip)
         self.ok_list.append(ip)
 
     @staticmethod
     def cb_fail(self, ip):
-        log.warning('[%20.20s] looping check total: FAIL.' % ip['name'])
+        log.warning('[%15.15s] looping check total: FAIL.' % ip)
         self.fail_list.append(ip)
 
     def fail_alert(self):
         mess = 'Fail ping: %s' % \
-               ', '.join([obj['name'] for obj in self.fail_list])
+               ', '.join(self.fail_list)
         log.error(mess)
         try:
             stop_alert_file = os.path.join(WORKING_DIR,
@@ -143,19 +141,19 @@ class Watcher(object):
 
         fail_count = 0
         pass_count = 0
-        log.info('[%20.20s] Looping check started...' % ip['name'])
+        log.info('[%15.15s] Looping check started...' % ip)
         while True:
             gevent.sleep(self.looping_interval)
             res = self.check(ip)
             if res:
                 pass_count += 1
-                log.info('[%20.20s] ... passed (%s passed - %s failed)' %
-                         (ip['name'], pass_count, fail_count))
+                log.info('[%15.15s] ... passed (%s passed - %s failed)' %
+                         (ip, pass_count, fail_count))
             else:
                 fail_count += 1
                 pass_count = 0
-                log.info('[%20.20s] ... failed (%s passed - %s failed)' %
-                         (ip['name'], pass_count, fail_count))
+                log.info('[%15.15s] ... failed (%s passed - %s failed)' %
+                         (ip, pass_count, fail_count))
             if pass_count == self.ok_threshold:
                 cb_ok(self, ip)
                 break
@@ -166,14 +164,14 @@ class Watcher(object):
     def first_check(self, ip):
         """Do the first check and issue a looping check if fail at the first"""
         if not self.check(ip):
-            log.info('[%20.20s] First check failed.' % ip['name'])
+            log.info('[%15.15s] First check failed.' % ip)
             self.looping_check(ip, self.cb_ok, self.cb_fail)
         else:
-            log.info('[%20.20s] First check ok.' % ip['name'])
+            log.info('[%15.15s] First check ok.' % ip)
             self.ok_list.append(ip)
 
-    def parallel_check(self):
-        job_list = [gevent.spawn(self.first_check, ip) for ip in self.ip_list]
+    def parallel_check(self, ip):
+        job_list = [gevent.spawn(self.first_check, ip)]
         if job_list:
             gevent.joinall(job_list)
         if len(self.fail_list):
@@ -219,10 +217,10 @@ if __name__ == "__main__":
                                                        maxBytes=1048576,
                                                        backupCount=1)
         handler.setFormatter(logging.Formatter(
-            "%(asctime)s [%(process)s] %(levelname)-7s [%(name)s] "
+            "%(asctime)s [%(process)6s] %(levelname)-7s [%(name)s] "
             "%(message)s"))
         log.addHandler(handler)
         logging.getLogger().setLevel(log_level)
 
         watcher = Watcher(json_data)
-        watcher.parallel_check()
+        watcher.parallel_check(sys.argv[1])

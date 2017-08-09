@@ -1,0 +1,543 @@
+2017-08-08 16:26:39,329 [  4867] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:39,331 [  4893] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:39,332 [  4870] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:39,335 [  4867] INFO    [ping_server] [                None] First check failed.
+2017-08-08 16:26:39,336 [  4867] INFO    [ping_server] [                None] Looping check started...
+2017-08-08 16:26:39,336 [  4893] INFO    [ping_server] [                None] First check failed.
+2017-08-08 16:26:39,336 [  4893] INFO    [ping_server] [                None] Looping check started...
+2017-08-08 16:26:39,337 [  4870] INFO    [ping_server] [                None] First check failed.
+2017-08-08 16:26:39,337 [  4870] INFO    [ping_server] [                None] Looping check started...
+2017-08-08 16:26:39,339 [  4897] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:39,339 [  4897] INFO    [ping_server] [                None] First check failed.
+2017-08-08 16:26:39,339 [  4864] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:39,340 [  4897] INFO    [ping_server] [                None] Looping check started...
+2017-08-08 16:26:39,340 [  4864] INFO    [ping_server] [                None] First check failed.
+2017-08-08 16:26:39,347 [  4904] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:39,347 [  4904] INFO    [ping_server] [                None] First check failed.
+2017-08-08 16:26:39,348 [  4904] INFO    [ping_server] [                None] Looping check started...
+2017-08-08 16:26:39,348 [  4864] INFO    [ping_server] [                None] Looping check started...
+2017-08-08 16:26:39,383 [  4861] INFO    [ping_server] [                None] First check ok.
+2017-08-08 16:26:39,383 [  4905] INFO    [ping_server] [                None] First check ok.
+2017-08-08 16:26:39,383 [  4885] INFO    [ping_server] [                None] First check ok.
+2017-08-08 16:26:39,384 [  4855] INFO    [ping_server] [                None] First check ok.
+2017-08-08 16:26:41,390 [  4851] INFO    [ping_server] [                None] First check ok.
+2017-08-08 16:26:41,415 [  4906] INFO    [ping_server] [                None] First check ok.
+2017-08-08 16:26:41,446 [  4860] INFO    [ping_server] [                None] First check ok.
+2017-08-08 16:26:42,340 [  4867] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:42,340 [  4893] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:42,340 [  4870] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:42,340 [  4867] INFO    [ping_server] [                None] ... failed (0 passed - 1 failed)
+2017-08-08 16:26:42,340 [  4893] INFO    [ping_server] [                None] ... failed (0 passed - 1 failed)
+2017-08-08 16:26:42,340 [  4870] INFO    [ping_server] [                None] ... failed (0 passed - 1 failed)
+2017-08-08 16:26:42,341 [  4897] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:42,341 [  4897] INFO    [ping_server] [                None] ... failed (0 passed - 1 failed)
+2017-08-08 16:26:42,350 [  4904] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:42,350 [  4864] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:42,351 [  4864] INFO    [ping_server] [                None] ... failed (0 passed - 1 failed)
+2017-08-08 16:26:42,351 [  4904] INFO    [ping_server] [                None] ... failed (0 passed - 1 failed)
+2017-08-08 16:26:45,341 [  4867] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:45,341 [  4867] INFO    [ping_server] [                None] ... failed (0 passed - 2 failed)
+2017-08-08 16:26:45,341 [  4867] WARNING [ping_server] [                None] looping check total: FAIL.
+2017-08-08 16:26:45,343 [  4897] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:45,343 [  4893] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:45,343 [  4870] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:45,343 [  4897] INFO    [ping_server] [                None] ... failed (0 passed - 2 failed)
+2017-08-08 16:26:45,343 [  4893] INFO    [ping_server] [                None] ... failed (0 passed - 2 failed)
+2017-08-08 16:26:45,343 [  4897] WARNING [ping_server] [                None] looping check total: FAIL.
+2017-08-08 16:26:45,343 [  4893] WARNING [ping_server] [                None] looping check total: FAIL.
+2017-08-08 16:26:45,343 [  4870] INFO    [ping_server] [                None] ... failed (0 passed - 2 failed)
+2017-08-08 16:26:45,344 [  4870] WARNING [ping_server] [                None] looping check total: FAIL.
+2017-08-08 16:26:45,352 [  4864] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:45,353 [  4904] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:26:45,353 [  4864] INFO    [ping_server] [                None] ... failed (0 passed - 2 failed)
+2017-08-08 16:26:45,353 [  4904] INFO    [ping_server] [                None] ... failed (0 passed - 2 failed)
+2017-08-08 16:26:45,353 [  4904] WARNING [ping_server] [                None] looping check total: FAIL.
+2017-08-08 16:26:45,354 [  4864] WARNING [ping_server] [                None] looping check total: FAIL.
+2017-08-08 16:26:51,385 [  4898] INFO    [ping_server] [                None] First check failed.
+2017-08-08 16:26:51,385 [  4898] INFO    [ping_server] [                None] Looping check started...
+2017-08-08 16:27:06,425 [  4898] INFO    [ping_server] [                None] ... failed (0 passed - 1 failed)
+2017-08-08 16:27:21,465 [  4898] INFO    [ping_server] [                None] ... failed (0 passed - 2 failed)
+2017-08-08 16:27:21,465 [  4898] WARNING [ping_server] [                None] looping check total: FAIL.
+2017-08-08 16:28:47,648 [ 11666] ERROR   [ping_server] Wrong def: 8.8.8.8
+2017-08-08 16:28:47,655 [ 11659] ERROR   [ping_server] Wrong def: 1.1.1.1
+2017-08-08 16:28:47,673 [ 11662] ERROR   [ping_server] Wrong def: 1
+2017-08-08 16:28:47,697 [ 11671] ERROR   [ping_server] Wrong def: 2
+2017-08-08 16:28:47,705 [ 11681] ERROR   [ping_server] Wrong def: long
+2017-08-08 16:28:47,719 [ 11681] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:47,722 [ 11681] INFO    [ping_server] [                None] First check failed.
+2017-08-08 16:28:47,725 [ 11681] INFO    [ping_server] [                None] Looping check started...
+2017-08-08 16:28:47,734 [ 11662] INFO    [ping_server] [                None] First check ok.
+2017-08-08 16:28:47,756 [ 11676] ERROR   [ping_server] Wrong def: in
+2017-08-08 16:28:47,771 [ 11671] INFO    [ping_server] [                None] First check ok.
+2017-08-08 16:28:47,772 [ 11698] ERROR   [ping_server] Wrong def: 3.3.3.3
+2017-08-08 16:28:47,786 [ 11676] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:47,786 [ 11676] INFO    [ping_server] [                None] First check failed.
+2017-08-08 16:28:47,786 [ 11676] INFO    [ping_server] [                None] Looping check started...
+2017-08-08 16:28:47,823 [ 11687] ERROR   [ping_server] Wrong def: name
+2017-08-08 16:28:47,824 [ 11702] ERROR   [ping_server] Wrong def: server4
+2017-08-08 16:28:47,829 [ 11714] ERROR   [ping_server] Wrong def: place
+2017-08-08 16:28:47,835 [ 11702] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:47,836 [ 11702] INFO    [ping_server] [                None] First check failed.
+2017-08-08 16:28:47,836 [ 11702] INFO    [ping_server] [                None] Looping check started...
+2017-08-08 16:28:47,836 [ 11703] ERROR   [ping_server] Wrong def: 3
+2017-08-08 16:28:47,837 [ 11708] ERROR   [ping_server] Wrong def: wrong
+2017-08-08 16:28:47,837 [ 11714] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:47,838 [ 11714] INFO    [ping_server] [                None] First check failed.
+2017-08-08 16:28:47,838 [ 11714] INFO    [ping_server] [                None] Looping check started...
+2017-08-08 16:28:47,838 [ 11708] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:47,839 [ 11708] INFO    [ping_server] [                None] First check failed.
+2017-08-08 16:28:47,839 [ 11708] INFO    [ping_server] [                None] Looping check started...
+2017-08-08 16:28:47,839 [ 11687] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:47,840 [ 11687] INFO    [ping_server] [                None] First check failed.
+2017-08-08 16:28:47,840 [ 11687] INFO    [ping_server] [                None] Looping check started...
+2017-08-08 16:28:47,842 [ 11703] INFO    [ping_server] [                None] First check ok.
+2017-08-08 16:28:47,866 [ 11722] ERROR   [ping_server] Wrong def: 8.8.4.4
+2017-08-08 16:28:47,871 [ 11728] ERROR   [ping_server] Wrong def: 4
+2017-08-08 16:28:47,874 [ 11728] INFO    [ping_server] [                None] First check ok.
+2017-08-08 16:28:49,688 [ 11659] INFO    [ping_server] [                None] First check ok.
+2017-08-08 16:28:49,745 [ 11666] INFO    [ping_server] [                None] First check ok.
+2017-08-08 16:28:49,901 [ 11722] INFO    [ping_server] [                None] First check ok.
+2017-08-08 16:28:50,728 [ 11681] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:50,728 [ 11681] INFO    [ping_server] [                None] ... failed (0 passed - 1 failed)
+2017-08-08 16:28:50,787 [ 11676] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:50,788 [ 11676] INFO    [ping_server] [                None] ... failed (0 passed - 1 failed)
+2017-08-08 16:28:50,837 [ 11702] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:50,838 [ 11702] INFO    [ping_server] [                None] ... failed (0 passed - 1 failed)
+2017-08-08 16:28:50,840 [ 11714] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:50,841 [ 11708] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:50,842 [ 11714] INFO    [ping_server] [                None] ... failed (0 passed - 1 failed)
+2017-08-08 16:28:50,842 [ 11708] INFO    [ping_server] [                None] ... failed (0 passed - 1 failed)
+2017-08-08 16:28:50,843 [ 11687] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:50,844 [ 11687] INFO    [ping_server] [                None] ... failed (0 passed - 1 failed)
+2017-08-08 16:28:53,729 [ 11681] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:53,730 [ 11681] INFO    [ping_server] [                None] ... failed (0 passed - 2 failed)
+2017-08-08 16:28:53,730 [ 11681] WARNING [ping_server] [                None] looping check total: FAIL.
+2017-08-08 16:28:53,790 [ 11676] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:53,790 [ 11676] INFO    [ping_server] [                None] ... failed (0 passed - 2 failed)
+2017-08-08 16:28:53,790 [ 11676] WARNING [ping_server] [                None] looping check total: FAIL.
+2017-08-08 16:28:53,841 [ 11702] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:53,841 [ 11702] INFO    [ping_server] [                None] ... failed (0 passed - 2 failed)
+2017-08-08 16:28:53,841 [ 11702] WARNING [ping_server] [                None] looping check total: FAIL.
+2017-08-08 16:28:53,843 [ 11714] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:53,843 [ 11714] INFO    [ping_server] [                None] ... failed (0 passed - 2 failed)
+2017-08-08 16:28:53,843 [ 11714] WARNING [ping_server] [                None] looping check total: FAIL.
+2017-08-08 16:28:53,844 [ 11708] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:53,844 [ 11687] WARNING [ping_server] Ping result ValueError: IP was not defined
+2017-08-08 16:28:53,844 [ 11687] INFO    [ping_server] [                None] ... failed (0 passed - 2 failed)
+2017-08-08 16:28:53,844 [ 11687] WARNING [ping_server] [                None] looping check total: FAIL.
+2017-08-08 16:28:53,845 [ 11708] INFO    [ping_server] [                None] ... failed (0 passed - 2 failed)
+2017-08-08 16:28:53,845 [ 11708] WARNING [ping_server] [                None] looping check total: FAIL.
+2017-08-08 16:28:59,815 [ 11698] INFO    [ping_server] [                None] First check failed.
+2017-08-08 16:28:59,815 [ 11698] INFO    [ping_server] [                None] Looping check started...
+2017-08-08 16:29:14,851 [ 11698] INFO    [ping_server] [                None] ... failed (0 passed - 1 failed)
+2017-08-08 16:29:26,400 [ 14546] ERROR   [ping_server] Wrong def: 1
+2017-08-08 16:29:26,407 [ 14543] ERROR   [ping_server] Wrong def: 1.1.1.1
+2017-08-08 16:29:26,441 [ 14550] ERROR   [ping_server] Wrong def: 8.8.8.8
+2017-08-08 16:29:26,442 [ 14556] ERROR   [ping_server] Wrong def: 2
+2017-08-08 16:29:26,478 [ 14559] ERROR   [ping_server] Wrong def: long
+2017-08-08 16:29:26,526 [ 14555] ERROR   [ping_server] Wrong def: in
+2017-08-08 16:29:26,541 [ 14573] ERROR   [ping_server] Wrong def: 3.3.3.3
+2017-08-08 16:29:26,551 [ 14579] ERROR   [ping_server] Wrong def: wrong
+2017-08-08 16:29:26,554 [ 14564] ERROR   [ping_server] Wrong def: name
+2017-08-08 16:29:26,557 [ 14569] ERROR   [ping_server] Wrong def: 3
+2017-08-08 16:29:26,592 [ 14576] ERROR   [ping_server] Wrong def: server4
+2017-08-08 16:29:26,598 [ 14595] ERROR   [ping_server] Wrong def: 8.8.4.4
+2017-08-08 16:29:26,629 [ 14597] ERROR   [ping_server] Wrong def: 4
+2017-08-08 16:29:26,629 [ 14584] ERROR   [ping_server] Wrong def: place
+2017-08-08 16:29:29,891 [ 11698] INFO    [ping_server] [                None] ... failed (0 passed - 2 failed)
+2017-08-08 16:29:29,892 [ 11698] WARNING [ping_server] [                None] looping check total: FAIL.
+2017-08-08 16:31:51,266 [ 22128] ERROR   [ping_server] Wrong def: 1.1.1.1
+2017-08-08 16:31:51,270 [ 22134] ERROR   [ping_server] Wrong def: 1
+2017-08-08 16:31:51,274 [ 22140] ERROR   [ping_server] Wrong def: 8.8.8.8
+2017-08-08 16:31:51,281 [ 22149] ERROR   [ping_server] Wrong def: 2
+2017-08-08 16:31:51,329 [ 22154] ERROR   [ping_server] Wrong def: in
+2017-08-08 16:31:51,341 [ 22165] ERROR   [ping_server] Wrong def: name
+2017-08-08 16:31:51,352 [ 22161] ERROR   [ping_server] Wrong def: long
+2017-08-08 16:31:51,407 [ 22176] ERROR   [ping_server] Wrong def: 3.3.3.3
+2017-08-08 16:31:51,418 [ 22186] ERROR   [ping_server] Wrong def: 3
+2017-08-08 16:31:51,451 [ 22208] ERROR   [ping_server] Wrong def: in
+2017-08-08 16:31:51,477 [ 22200] ERROR   [ping_server] Wrong def: server4
+2017-08-08 16:31:51,498 [ 22227] ERROR   [ping_server] Wrong def: place
+2017-08-08 16:31:51,502 [ 22216] ERROR   [ping_server] Wrong def: wrong
+2017-08-08 16:31:51,549 [ 22237] ERROR   [ping_server] Wrong def: 8.8.4.4
+2017-08-08 16:31:51,567 [ 22247] ERROR   [ping_server] Wrong def: 4
+2017-08-08 16:33:32,419 [ 28264] DEBUG   [ping_server] IP_OBJ: {1 ; None}
+2017-08-08 16:33:32,421 [ 28258] DEBUG   [ping_server] IP_OBJ: {1.1.1.1 ; None}
+2017-08-08 16:33:32,421 [ 28264] ERROR   [ping_server] Wrong def: 1
+2017-08-08 16:33:32,424 [ 28258] ERROR   [ping_server] Wrong def: 1.1.1.1
+2017-08-08 16:33:32,430 [ 28270] DEBUG   [ping_server] IP_OBJ: {8.8.8.8 ; None}
+2017-08-08 16:33:32,431 [ 28270] ERROR   [ping_server] Wrong def: 8.8.8.8
+2017-08-08 16:33:32,438 [ 28281] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:33:32,440 [ 28281] ERROR   [ping_server] Wrong def: in
+2017-08-08 16:33:32,470 [ 28284] DEBUG   [ping_server] IP_OBJ: {2 ; None}
+2017-08-08 16:33:32,471 [ 28284] ERROR   [ping_server] Wrong def: 2
+2017-08-08 16:33:32,498 [ 28299] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:33:32,499 [ 28299] ERROR   [ping_server] Wrong def: name
+2017-08-08 16:33:32,507 [ 28292] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:33:32,508 [ 28292] ERROR   [ping_server] Wrong def: long
+2017-08-08 16:33:32,554 [ 28313] DEBUG   [ping_server] IP_OBJ: {3 ; None}
+2017-08-08 16:33:32,554 [ 28313] ERROR   [ping_server] Wrong def: 3
+2017-08-08 16:33:32,567 [ 28308] DEBUG   [ping_server] IP_OBJ: {3.3.3.3 ; None}
+2017-08-08 16:33:32,568 [ 28308] ERROR   [ping_server] Wrong def: 3.3.3.3
+2017-08-08 16:33:32,586 [ 28320] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:33:32,587 [ 28320] ERROR   [ping_server] Wrong def: server4
+2017-08-08 16:33:32,606 [ 28327] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:33:32,607 [ 28327] ERROR   [ping_server] Wrong def: in
+2017-08-08 16:33:32,637 [ 28334] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:33:32,638 [ 28334] ERROR   [ping_server] Wrong def: wrong
+2017-08-08 16:33:32,655 [ 28345] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:33:32,656 [ 28345] ERROR   [ping_server] Wrong def: place
+2017-08-08 16:33:32,705 [ 28353] DEBUG   [ping_server] IP_OBJ: {8.8.4.4 ; None}
+2017-08-08 16:33:32,706 [ 28353] ERROR   [ping_server] Wrong def: 8.8.4.4
+2017-08-08 16:33:32,718 [ 28358] DEBUG   [ping_server] IP_OBJ: {4 ; None}
+2017-08-08 16:33:32,719 [ 28358] ERROR   [ping_server] Wrong def: 4
+2017-08-08 16:34:12,077 [ 31519] DEBUG   [ping_server] IP_OBJ: {1.1.1.1 ; None}
+2017-08-08 16:34:12,078 [ 31519] ERROR   [ping_server] Wrong def: 1.1.1.1
+2017-08-08 16:34:12,092 [ 31531] DEBUG   [ping_server] IP_OBJ: {8.8.8.8 ; None}
+2017-08-08 16:34:12,093 [ 31531] ERROR   [ping_server] Wrong def: 8.8.8.8
+2017-08-08 16:34:12,097 [ 31525] DEBUG   [ping_server] IP_OBJ: {1 ; None}
+2017-08-08 16:34:12,100 [ 31525] ERROR   [ping_server] Wrong def: 1
+2017-08-08 16:34:12,102 [ 31537] DEBUG   [ping_server] IP_OBJ: {2 ; None}
+2017-08-08 16:34:12,102 [ 31537] ERROR   [ping_server] Wrong def: 2
+2017-08-08 16:34:12,198 [ 31561] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:34:12,199 [ 31561] ERROR   [ping_server] Wrong def: name
+2017-08-08 16:34:12,200 [ 31557] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:34:12,201 [ 31546] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:34:12,202 [ 31546] ERROR   [ping_server] Wrong def: in
+2017-08-08 16:34:12,208 [ 31557] ERROR   [ping_server] Wrong def: long
+2017-08-08 16:34:12,244 [ 31571] DEBUG   [ping_server] IP_OBJ: {3.3.3.3 ; None}
+2017-08-08 16:34:12,248 [ 31571] ERROR   [ping_server] Wrong def: 3.3.3.3
+2017-08-08 16:34:12,270 [ 31579] DEBUG   [ping_server] IP_OBJ: {3 ; None}
+2017-08-08 16:34:12,270 [ 31579] ERROR   [ping_server] Wrong def: 3
+2017-08-08 16:34:12,271 [ 31590] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:34:12,272 [ 31590] ERROR   [ping_server] Wrong def: server4
+2017-08-08 16:34:12,303 [ 31598] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:34:12,304 [ 31598] ERROR   [ping_server] Wrong def: in
+2017-08-08 16:34:12,350 [ 31610] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:34:12,351 [ 31610] ERROR   [ping_server] Wrong def: wrong
+2017-08-08 16:34:12,352 [ 31618] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:34:12,353 [ 31618] ERROR   [ping_server] Wrong def: place
+2017-08-08 16:34:12,385 [ 31631] DEBUG   [ping_server] IP_OBJ: {8.8.4.4 ; None}
+2017-08-08 16:34:12,386 [ 31631] ERROR   [ping_server] Wrong def: 8.8.4.4
+2017-08-08 16:34:12,425 [ 31638] DEBUG   [ping_server] IP_OBJ: {4 ; None}
+2017-08-08 16:34:12,426 [ 31638] ERROR   [ping_server] Wrong def: 4
+2017-08-08 16:34:53,185 [  3190] DEBUG   [ping_server] IP_OBJ: {1.1.1.1 ; None}
+2017-08-08 16:34:53,186 [  3190] ERROR   [ping_server] Wrong def: 1.1.1.1
+2017-08-08 16:34:53,187 [  3198] DEBUG   [ping_server] IP_OBJ: {1 ; None}
+2017-08-08 16:34:53,188 [  3198] ERROR   [ping_server] Wrong def: 1
+2017-08-08 16:34:53,250 [  3240] DEBUG   [ping_server] IP_OBJ: {2 ; None}
+2017-08-08 16:34:53,251 [  3240] ERROR   [ping_server] Wrong def: 2
+2017-08-08 16:34:53,254 [  3222] DEBUG   [ping_server] IP_OBJ: {8.8.8.8 ; None}
+2017-08-08 16:34:53,255 [  3222] ERROR   [ping_server] Wrong def: 8.8.8.8
+2017-08-08 16:34:53,260 [  3257] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:34:53,261 [  3257] ERROR   [ping_server] Wrong def: in
+2017-08-08 16:34:53,295 [  3268] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:34:53,296 [  3268] ERROR   [ping_server] Wrong def: long
+2017-08-08 16:34:53,354 [  3316] DEBUG   [ping_server] IP_OBJ: {3.3.3.3 ; None}
+2017-08-08 16:34:53,354 [  3316] ERROR   [ping_server] Wrong def: 3.3.3.3
+2017-08-08 16:34:53,356 [  3285] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:34:53,359 [  3339] DEBUG   [ping_server] IP_OBJ: {3 ; None}
+2017-08-08 16:34:53,359 [  3339] ERROR   [ping_server] Wrong def: 3
+2017-08-08 16:34:53,369 [  3285] ERROR   [ping_server] Wrong def: name
+2017-08-08 16:34:53,429 [  3414] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:34:53,429 [  3414] ERROR   [ping_server] Wrong def: in
+2017-08-08 16:34:53,435 [  3358] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:34:53,435 [  3358] ERROR   [ping_server] Wrong def: server4
+2017-08-08 16:34:53,467 [  3450] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:34:53,468 [  3450] ERROR   [ping_server] Wrong def: wrong
+2017-08-08 16:34:53,475 [  3478] DEBUG   [ping_server] IP_OBJ: {8.8.4.4 ; None}
+2017-08-08 16:34:53,476 [  3478] ERROR   [ping_server] Wrong def: 8.8.4.4
+2017-08-08 16:34:53,481 [  3457] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:34:53,481 [  3457] ERROR   [ping_server] Wrong def: place
+2017-08-08 16:34:53,535 [  3513] DEBUG   [ping_server] IP_OBJ: {4 ; None}
+2017-08-08 16:34:53,535 [  3513] ERROR   [ping_server] Wrong def: 4
+2017-08-08 16:35:19,196 [  6390] DEBUG   [ping_server] IP_OBJ: {8.8.8.8 ; None}
+2017-08-08 16:35:19,199 [  6390] ERROR   [ping_server] Wrong def: 8.8.8.8
+2017-08-08 16:35:19,201 [  6402] DEBUG   [ping_server] IP_OBJ: {2 ; None}
+2017-08-08 16:35:19,201 [  6402] ERROR   [ping_server] Wrong def: 2
+2017-08-08 16:35:19,229 [  6415] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:35:19,230 [  6415] ERROR   [ping_server] Wrong def: in
+2017-08-08 16:35:19,251 [  6425] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:35:19,251 [  6425] ERROR   [ping_server] Wrong def: long
+2017-08-08 16:35:19,255 [  6434] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:35:19,256 [  6434] ERROR   [ping_server] Wrong def: name
+2017-08-08 16:35:50,435 [  9448] DEBUG   [ping_server] IP_OBJ: {2 ; None}
+2017-08-08 16:35:50,441 [  9442] DEBUG   [ping_server] IP_OBJ: {8.8.8.8 ; None}
+2017-08-08 16:35:50,441 [  9448] ERROR   [ping_server] Wrong def: 2
+2017-08-08 16:35:50,451 [  9442] ERROR   [ping_server] Wrong def: 8.8.8.8
+2017-08-08 16:35:50,491 [  9468] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:35:50,491 [  9468] ERROR   [ping_server] Wrong def: name
+2017-08-08 16:35:50,496 [  9454] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:35:50,496 [  9454] ERROR   [ping_server] Wrong def: in
+2017-08-08 16:35:50,524 [  9462] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-08 16:35:50,524 [  9462] ERROR   [ping_server] Wrong def: long
+2017-08-08 16:40:03,308 [ 25960] DEBUG   [ping_server] IP_OBJ: {8.8.8.8 ; None}
+2017-08-08 16:40:03,309 [ 25960] ERROR   [ping_server] Wrong def: 8.8.8.8
+2017-08-08 16:40:49,272 [ 28398] DEBUG   [ping_server] IP_OBJ: {8.8.8.8 ; server 2 in long name}
+2017-08-08 16:40:51,342 [ 28398] DEBUG   [ping_server]    line: PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2017-08-08 16:40:51,343 [ 28398] DEBUG   [ping_server]    line: 64 bytes from 8.8.8.8: icmp_seq=1 ttl=43 time=62.2 ms
+2017-08-08 16:40:51,344 [ 28398] DEBUG   [ping_server]    line: 64 bytes from 8.8.8.8: icmp_seq=2 ttl=43 time=62.1 ms
+2017-08-08 16:40:51,344 [ 28398] DEBUG   [ping_server]    line: 64 bytes from 8.8.8.8: icmp_seq=3 ttl=43 time=62.2 ms
+2017-08-08 16:40:51,344 [ 28398] DEBUG   [ping_server]    line: 
+2017-08-08 16:40:51,345 [ 28398] DEBUG   [ping_server]    line: --- 8.8.8.8 ping statistics ---
+2017-08-08 16:40:51,345 [ 28398] DEBUG   [ping_server]    line: 3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+2017-08-08 16:40:51,346 [ 28398] DEBUG   [ping_server]    line: rtt min/avg/max/mdev = 62.145/62.235/62.284/0.213 ms
+2017-08-08 16:40:51,346 [ 28398] DEBUG   [ping_server]    line: 
+2017-08-08 16:40:51,346 [ 28398] INFO    [ping_server] [server 2 in long nam] First check ok.
+2017-08-08 16:41:59,386 [ 32349] DEBUG   [ping_server] IP_OBJ: {8.8.8.8 ; server 2 in long name}
+2017-08-08 16:41:59,389 [ 32355] DEBUG   [ping_server] IP_OBJ: {8.8.4.4 ; server 1 45}
+2017-08-08 16:41:59,400 [ 32360] DEBUG   [ping_server] IP_OBJ: {1.1.2.2 ;  serf 5 dfgdfg0 dfgfg}
+2017-08-08 16:42:01,430 [ 32355] DEBUG   [ping_server]    line: PING 8.8.4.4 (8.8.4.4) 56(84) bytes of data.
+2017-08-08 16:42:01,430 [ 32355] DEBUG   [ping_server]    line: 64 bytes from 8.8.4.4: icmp_seq=1 ttl=56 time=28.3 ms
+2017-08-08 16:42:01,431 [ 32355] DEBUG   [ping_server]    line: 64 bytes from 8.8.4.4: icmp_seq=2 ttl=56 time=28.5 ms
+2017-08-08 16:42:01,432 [ 32355] DEBUG   [ping_server]    line: 64 bytes from 8.8.4.4: icmp_seq=3 ttl=56 time=28.2 ms
+2017-08-08 16:42:01,432 [ 32355] DEBUG   [ping_server]    line: 
+2017-08-08 16:42:01,433 [ 32355] DEBUG   [ping_server]    line: --- 8.8.4.4 ping statistics ---
+2017-08-08 16:42:01,434 [ 32355] DEBUG   [ping_server]    line: 3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+2017-08-08 16:42:01,434 [ 32355] DEBUG   [ping_server]    line: rtt min/avg/max/mdev = 28.271/28.402/28.561/0.182 ms
+2017-08-08 16:42:01,435 [ 32355] DEBUG   [ping_server]    line: 
+2017-08-08 16:42:01,435 [ 32355] INFO    [ping_server] [         server 1 45] First check ok.
+2017-08-08 16:42:01,459 [ 32349] DEBUG   [ping_server]    line: PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2017-08-08 16:42:01,460 [ 32349] DEBUG   [ping_server]    line: 64 bytes from 8.8.8.8: icmp_seq=1 ttl=43 time=62.6 ms
+2017-08-08 16:42:01,460 [ 32349] DEBUG   [ping_server]    line: 64 bytes from 8.8.8.8: icmp_seq=2 ttl=43 time=62.2 ms
+2017-08-08 16:42:01,460 [ 32349] DEBUG   [ping_server]    line: 64 bytes from 8.8.8.8: icmp_seq=3 ttl=43 time=62.3 ms
+2017-08-08 16:42:01,460 [ 32349] DEBUG   [ping_server]    line: 
+2017-08-08 16:42:01,460 [ 32349] DEBUG   [ping_server]    line: --- 8.8.8.8 ping statistics ---
+2017-08-08 16:42:01,460 [ 32349] DEBUG   [ping_server]    line: 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+2017-08-08 16:42:01,460 [ 32349] DEBUG   [ping_server]    line: rtt min/avg/max/mdev = 62.245/62.413/62.608/0.149 ms
+2017-08-08 16:42:01,460 [ 32349] DEBUG   [ping_server]    line: 
+2017-08-08 16:42:01,460 [ 32349] INFO    [ping_server] [server 2 in long nam] First check ok.
+2017-08-08 16:42:11,412 [ 32360] DEBUG   [ping_server]    line: PING 1.1.2.2 (1.1.2.2) 56(84) bytes of data.
+2017-08-08 16:42:11,412 [ 32360] DEBUG   [ping_server]    line: 
+2017-08-08 16:42:11,413 [ 32360] DEBUG   [ping_server]    line: --- 1.1.2.2 ping statistics ---
+2017-08-08 16:42:11,413 [ 32360] DEBUG   [ping_server]    line: 3 packets transmitted, 0 received, 100% packet loss, time 2007ms
+2017-08-08 16:42:11,413 [ 32360] DEBUG   [ping_server] Found lost package.
+2017-08-08 16:42:11,414 [ 32360] INFO    [ping_server] [ serf 5 dfgdfg0 dfgf] First check failed.
+2017-08-08 16:42:11,414 [ 32360] INFO    [ping_server] [ serf 5 dfgdfg0 dfgf] Looping check started...
+2017-08-08 16:42:26,452 [ 32360] DEBUG   [ping_server]    line: PING 1.1.2.2 (1.1.2.2) 56(84) bytes of data.
+2017-08-08 16:42:26,452 [ 32360] DEBUG   [ping_server]    line: 
+2017-08-08 16:42:26,453 [ 32360] DEBUG   [ping_server]    line: --- 1.1.2.2 ping statistics ---
+2017-08-08 16:42:26,454 [ 32360] DEBUG   [ping_server]    line: 3 packets transmitted, 0 received, 100% packet loss, time 2031ms
+2017-08-08 16:42:26,454 [ 32360] DEBUG   [ping_server] Found lost package.
+2017-08-08 16:42:26,455 [ 32360] INFO    [ping_server] [ serf 5 dfgdfg0 dfgf] ... failed (0 passed - 1 failed)
+2017-08-08 16:42:41,492 [ 32360] DEBUG   [ping_server]    line: PING 1.1.2.2 (1.1.2.2) 56(84) bytes of data.
+2017-08-08 16:42:41,492 [ 32360] DEBUG   [ping_server]    line: 
+2017-08-08 16:42:41,492 [ 32360] DEBUG   [ping_server]    line: --- 1.1.2.2 ping statistics ---
+2017-08-08 16:42:41,493 [ 32360] DEBUG   [ping_server]    line: 3 packets transmitted, 0 received, 100% packet loss, time 2027ms
+2017-08-08 16:42:41,493 [ 32360] DEBUG   [ping_server] Found lost package.
+2017-08-08 16:42:41,493 [ 32360] INFO    [ping_server] [ serf 5 dfgdfg0 dfgf] ... failed (0 passed - 2 failed)
+2017-08-08 16:42:41,493 [ 32360] WARNING [ping_server] [ serf 5 dfgdfg0 dfgf] looping check total: FAIL.
+2017-08-08 16:42:41,493 [ 32360] ERROR   [ping_server] Fail ping:  serf 5 dfgdfg0 dfgfg
+2017-08-08 16:42:41,493 [ 32360] DEBUG   [ping_server] Cannot open stop-alert-file
+2017-08-08 16:43:41,368 [  6029] INFO    [ping_server] [         server 1 45] First check ok.
+2017-08-08 16:43:41,384 [  6017] INFO    [ping_server] [server 2 in long nam] First check ok.
+2017-08-08 16:43:51,358 [  6043] INFO    [ping_server] [ serf 5 dfgdfg0 dfgf] First check failed.
+2017-08-08 16:43:51,358 [  6043] INFO    [ping_server] [ serf 5 dfgdfg0 dfgf] Looping check started...
+2017-08-08 16:44:06,398 [  6043] INFO    [ping_server] [ serf 5 dfgdfg0 dfgf] ... failed (0 passed - 1 failed)
+2017-08-08 16:44:21,438 [  6043] INFO    [ping_server] [ serf 5 dfgdfg0 dfgf] ... failed (0 passed - 2 failed)
+2017-08-08 16:44:21,439 [  6043] WARNING [ping_server] [ serf 5 dfgdfg0 dfgf] looping check total: FAIL.
+2017-08-08 16:44:21,440 [  6043] ERROR   [ping_server] Fail ping:  serf 5 dfgdfg0 dfgfg
+2017-08-09 16:41:52,245 [   846] INFO    [ping_server] [             Gateway] First check ok.
+2017-08-09 16:41:52,268 [   859] INFO    [ping_server] [              dfgdfg] First check ok.
+2017-08-09 16:41:52,301 [   853] INFO    [ping_server] [             gdfgdfg] First check ok.
+2017-08-09 16:46:07,998 [ 14486] INFO    [ping_server] [             Gateway] First check ok.
+2017-08-09 16:46:10,120 [ 14599] INFO    [ping_server] [              dfgdfg] First check ok.
+2017-08-09 16:46:10,153 [ 14594] INFO    [ping_server] [             gdfgdfg] First check ok.
+2017-08-09 16:46:43,451 [ 16470] INFO    [ping_server] [             Gateway] First check ok.
+2017-08-09 16:46:43,474 [ 16481] INFO    [ping_server] [              dfgdfg] First check ok.
+2017-08-09 16:46:43,512 [ 16476] INFO    [ping_server] [             gdfgdfg] First check ok.
+2017-08-09 16:47:42,900 [ 19577] INFO    [ping_server] [             Gateway] First check ok.
+2017-08-09 16:47:45,022 [ 19682] INFO    [ping_server] [              dfgdfg] First check ok.
+2017-08-09 16:47:45,057 [ 19677] INFO    [ping_server] [             gdfgdfg] First check ok.
+2017-08-09 16:48:01,416 [ 20800] ERROR   [ping_server] Wrong def: 2.1.333.1;Gateway
+2017-08-09 16:48:03,621 [ 20816] INFO    [ping_server] [              dfgdfg] First check ok.
+2017-08-09 16:48:03,621 [ 20809] INFO    [ping_server] [             gdfgdfg] First check ok.
+2017-08-09 16:48:45,493 [ 23193] ERROR   [ping_server] Wrong def: 2.1.333.1;Gateway
+2017-08-09 16:49:07,667 [ 23816] INFO    [ping_server] [             Gateway] First check failed.
+2017-08-09 16:49:07,667 [ 23816] INFO    [ping_server] [             Gateway] Looping check started...
+2017-08-09 16:49:22,706 [ 23816] INFO    [ping_server] [             Gateway] ... failed (0 passed - 1 failed)
+2017-08-09 16:49:37,746 [ 23816] INFO    [ping_server] [             Gateway] ... failed (0 passed - 2 failed)
+2017-08-09 16:49:37,747 [ 23816] WARNING [ping_server] [             Gateway] looping check total: FAIL.
+2017-08-09 16:49:37,747 [ 23816] ERROR   [ping_server] Fail ping: Gateway
+2017-08-09 16:50:50,386 [ 29089] INFO    [ping_server] [             Gateway] First check failed.
+2017-08-09 16:50:50,387 [ 29089] INFO    [ping_server] [             Gateway] Looping check started...
+2017-08-09 16:51:05,428 [ 29089] INFO    [ping_server] [             Gateway] ... failed (0 passed - 1 failed)
+2017-08-09 16:51:20,466 [ 29089] INFO    [ping_server] [             Gateway] ... failed (0 passed - 2 failed)
+2017-08-09 16:51:20,467 [ 29089] WARNING [ping_server] [             Gateway] looping check total: FAIL.
+2017-08-09 16:51:20,467 [ 29089] ERROR   [ping_server] Fail ping: Gateway
+2017-08-09 16:51:41,527 [ 32208] INFO    [ping_server] [             Gateway] First check ok.
+2017-08-09 16:51:43,648 [ 32319] INFO    [ping_server] [              dfgdfg] First check ok.
+2017-08-09 16:51:43,681 [ 32314] INFO    [ping_server] [             gdfgdfg] First check ok.
+2017-08-09 18:58:52,972 [ 17887] INFO    [ping_server] [             Gateway] First check ok.
+2017-08-09 18:58:55,105 [ 18000] INFO    [ping_server] [              dfgdfg] First check ok.
+2017-08-09 18:58:55,140 [ 17993] INFO    [ping_server] [             gdfgdfg] First check ok.
+2017-08-09 18:59:10,336 [ 18902] INFO    [ping_server] [             Gateway] First check ok.
+2017-08-09 18:59:12,453 [ 19014] INFO    [ping_server] [              dfgdfg] First check ok.
+2017-08-09 18:59:12,484 [ 19007] INFO    [ping_server] [             gdfgdfg] First check ok.
+2017-08-09 18:59:50,060 [ 21127] INFO    [ping_server] [             gateway] First check ok.
+2017-08-09 18:59:52,189 [ 21239] INFO    [ping_server] [              dfgdfg] First check ok.
+2017-08-09 18:59:52,215 [ 21231] INFO    [ping_server] [             Gateway] First check ok.
+2017-08-09 19:02:02,629 [ 27540] INFO    [ping_server] [             Gateway] First check ok.
+2017-08-09 19:02:02,767 [ 27677] ERROR   [ping_server] Wrong def: 
+2017-08-09 19:02:02,767 [ 27677] ERROR   [ping_server] ALERT ALERT ALERT: Wrong def: 
+2017-08-09 19:02:04,798 [ 27646] INFO    [ping_server] [Server 1 checked whe] First check ok.
+2017-08-09 19:02:04,805 [ 27664] INFO    [ping_server] [Server 3 is swaped n] First check ok.
+2017-08-09 19:02:14,786 [ 27656] INFO    [ping_server] [Server 2 checked whe] First check failed.
+2017-08-09 19:02:14,787 [ 27656] INFO    [ping_server] [Server 2 checked whe] Looping check started...
+2017-08-09 19:02:29,826 [ 27656] INFO    [ping_server] [Server 2 checked whe] ... failed (0 passed - 1 failed)
+2017-08-09 19:02:44,866 [ 27656] INFO    [ping_server] [Server 2 checked whe] ... failed (0 passed - 2 failed)
+2017-08-09 19:02:44,866 [ 27656] WARNING [ping_server] [Server 2 checked whe] looping check total: FAIL.
+2017-08-09 19:02:44,866 [ 27656] ERROR   [ping_server] Fail ping: Server 2 checked when above passed but failed and more 20 chars
+2017-08-09 19:02:44,867 [ 27656] ERROR   [ping_server] ALERT ALERT ALERT: Fail ping: Server 2 checked when above passed but failed and more 20 chars
+2017-08-09 19:03:49,737 [  3135] INFO    [ping_server] [             Gateway] First check ok.
+2017-08-09 19:03:49,879 [  3369] ERROR   [ping_server] Wrong def: 
+2017-08-09 19:03:49,879 [  3369] ERROR   [ping_server] ALERT ALERT ALERT: Wrong def: 
+2017-08-09 19:03:51,881 [  3355] INFO    [ping_server] [Server 3 is swaped n] First check ok.
+2017-08-09 19:03:51,928 [  3337] INFO    [ping_server] [Server 1 checked whe] First check ok.
+2017-08-09 19:04:01,879 [  3346] INFO    [ping_server] [Server 2 checked whe] First check failed.
+2017-08-09 19:04:01,880 [  3346] INFO    [ping_server] [Server 2 checked whe] Looping check started...
+2017-08-09 19:04:16,919 [  3346] INFO    [ping_server] [Server 2 checked whe] ... failed (0 passed - 1 failed)
+2017-08-09 19:04:31,959 [  3346] INFO    [ping_server] [Server 2 checked whe] ... failed (0 passed - 2 failed)
+2017-08-09 19:04:31,959 [  3346] WARNING [ping_server] [Server 2 checked whe] looping check total: FAIL.
+2017-08-09 19:04:31,960 [  3346] ERROR   [ping_server] Fail ping: Server 2 checked when above passed but failed and more 20 chars
+2017-08-09 19:04:31,960 [  3346] ERROR   [ping_server] ALERT ALERT ALERT: Fail ping: Server 2 checked when above passed but failed and more 20 chars
+2017-08-09 19:05:29,146 [ 12046] DEBUG   [ping_server] IP_OBJ: {1.1.1.1 ; Gateway}
+2017-08-09 19:05:31,166 [ 12046] DEBUG   [ping_server]    line: PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+2017-08-09 19:05:31,167 [ 12046] DEBUG   [ping_server]    line: 64 bytes from 1.1.1.1: icmp_seq=1 ttl=54 time=6.92 ms
+2017-08-09 19:05:31,167 [ 12046] DEBUG   [ping_server]    line: 64 bytes from 1.1.1.1: icmp_seq=2 ttl=56 time=5.49 ms
+2017-08-09 19:05:31,167 [ 12046] DEBUG   [ping_server]    line: 64 bytes from 1.1.1.1: icmp_seq=3 ttl=56 time=8.99 ms
+2017-08-09 19:05:31,168 [ 12046] DEBUG   [ping_server]    line: 
+2017-08-09 19:05:31,168 [ 12046] DEBUG   [ping_server]    line: --- 1.1.1.1 ping statistics ---
+2017-08-09 19:05:31,168 [ 12046] DEBUG   [ping_server]    line: 3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+2017-08-09 19:05:31,169 [ 12046] DEBUG   [ping_server]    line: rtt min/avg/max/mdev = 5.494/7.136/8.992/1.436 ms
+2017-08-09 19:05:31,169 [ 12046] DEBUG   [ping_server]    line: 
+2017-08-09 19:05:31,169 [ 12046] INFO    [ping_server] [             Gateway] First check ok.
+2017-08-09 19:05:31,268 [ 12150] DEBUG   [ping_server] IP_OBJ: {8.8.8.8 ; Server 1 checked when passed}
+2017-08-09 19:05:31,275 [ 12158] DEBUG   [ping_server] IP_OBJ: {1.2.3.4 ; Server 2 checked when above passed but failed and more 20 chars}
+2017-08-09 19:05:31,276 [ 12169] DEBUG   [ping_server] IP_OBJ: {8.8.4.4 ; Server 3 is swaped name}
+2017-08-09 19:05:31,289 [ 12179] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-09 19:05:31,291 [ 12179] ERROR   [ping_server] Wrong def: 
+2017-08-09 19:05:31,293 [ 12179] ERROR   [ping_server] ALERT ALERT ALERT: Wrong def: 
+2017-08-09 19:05:33,314 [ 12169] DEBUG   [ping_server]    line: PING 8.8.4.4 (8.8.4.4) 56(84) bytes of data.
+2017-08-09 19:05:33,314 [ 12169] DEBUG   [ping_server]    line: 64 bytes from 8.8.4.4: icmp_seq=1 ttl=56 time=28.2 ms
+2017-08-09 19:05:33,314 [ 12169] DEBUG   [ping_server]    line: 64 bytes from 8.8.4.4: icmp_seq=2 ttl=56 time=28.3 ms
+2017-08-09 19:05:33,314 [ 12169] DEBUG   [ping_server]    line: 64 bytes from 8.8.4.4: icmp_seq=3 ttl=56 time=28.4 ms
+2017-08-09 19:05:33,314 [ 12169] DEBUG   [ping_server]    line: 
+2017-08-09 19:05:33,315 [ 12169] DEBUG   [ping_server]    line: --- 8.8.4.4 ping statistics ---
+2017-08-09 19:05:33,315 [ 12169] DEBUG   [ping_server]    line: 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+2017-08-09 19:05:33,315 [ 12169] DEBUG   [ping_server]    line: rtt min/avg/max/mdev = 28.220/28.358/28.475/0.221 ms
+2017-08-09 19:05:33,315 [ 12169] DEBUG   [ping_server]    line: 
+2017-08-09 19:05:33,315 [ 12169] INFO    [ping_server] [Server 3 is swaped n] First check ok.
+2017-08-09 19:05:33,340 [ 12150] DEBUG   [ping_server]    line: PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2017-08-09 19:05:33,340 [ 12150] DEBUG   [ping_server]    line: 64 bytes from 8.8.8.8: icmp_seq=1 ttl=43 time=57.7 ms
+2017-08-09 19:05:33,340 [ 12150] DEBUG   [ping_server]    line: 64 bytes from 8.8.8.8: icmp_seq=2 ttl=43 time=57.8 ms
+2017-08-09 19:05:33,340 [ 12150] DEBUG   [ping_server]    line: 64 bytes from 8.8.8.8: icmp_seq=3 ttl=43 time=57.6 ms
+2017-08-09 19:05:33,340 [ 12150] DEBUG   [ping_server]    line: 
+2017-08-09 19:05:33,340 [ 12150] DEBUG   [ping_server]    line: --- 8.8.8.8 ping statistics ---
+2017-08-09 19:05:33,340 [ 12150] DEBUG   [ping_server]    line: 3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+2017-08-09 19:05:33,340 [ 12150] DEBUG   [ping_server]    line: rtt min/avg/max/mdev = 57.601/57.715/57.840/0.294 ms
+2017-08-09 19:05:33,340 [ 12150] DEBUG   [ping_server]    line: 
+2017-08-09 19:05:33,340 [ 12150] INFO    [ping_server] [Server 1 checked whe] First check ok.
+2017-08-09 19:05:43,293 [ 12158] DEBUG   [ping_server]    line: PING 1.2.3.4 (1.2.3.4) 56(84) bytes of data.
+2017-08-09 19:05:43,293 [ 12158] DEBUG   [ping_server]    line: 
+2017-08-09 19:05:43,294 [ 12158] DEBUG   [ping_server]    line: --- 1.2.3.4 ping statistics ---
+2017-08-09 19:05:43,294 [ 12158] DEBUG   [ping_server]    line: 3 packets transmitted, 0 received, 100% packet loss, time 2007ms
+2017-08-09 19:05:43,295 [ 12158] DEBUG   [ping_server] Found lost package.
+2017-08-09 19:05:43,296 [ 12158] INFO    [ping_server] [Server 2 checked whe] First check failed.
+2017-08-09 19:05:43,296 [ 12158] INFO    [ping_server] [Server 2 checked whe] Looping check started...
+2017-08-09 19:05:58,332 [ 12158] DEBUG   [ping_server]    line: PING 1.2.3.4 (1.2.3.4) 56(84) bytes of data.
+2017-08-09 19:05:58,332 [ 12158] DEBUG   [ping_server]    line: 
+2017-08-09 19:05:58,333 [ 12158] DEBUG   [ping_server]    line: --- 1.2.3.4 ping statistics ---
+2017-08-09 19:05:58,333 [ 12158] DEBUG   [ping_server]    line: 3 packets transmitted, 0 received, 100% packet loss, time 2029ms
+2017-08-09 19:05:58,333 [ 12158] DEBUG   [ping_server] Found lost package.
+2017-08-09 19:05:58,333 [ 12158] INFO    [ping_server] [Server 2 checked whe] ... failed (0 passed - 1 failed)
+2017-08-09 19:06:13,376 [ 12158] DEBUG   [ping_server]    line: PING 1.2.3.4 (1.2.3.4) 56(84) bytes of data.
+2017-08-09 19:06:13,376 [ 12158] DEBUG   [ping_server]    line: 
+2017-08-09 19:06:13,376 [ 12158] DEBUG   [ping_server]    line: --- 1.2.3.4 ping statistics ---
+2017-08-09 19:06:13,376 [ 12158] DEBUG   [ping_server]    line: 3 packets transmitted, 0 received, 100% packet loss, time 2033ms
+2017-08-09 19:06:13,376 [ 12158] DEBUG   [ping_server] Found lost package.
+2017-08-09 19:06:13,377 [ 12158] INFO    [ping_server] [Server 2 checked whe] ... failed (0 passed - 2 failed)
+2017-08-09 19:06:13,377 [ 12158] WARNING [ping_server] [Server 2 checked whe] looping check total: FAIL.
+2017-08-09 19:06:13,377 [ 12158] ERROR   [ping_server] Fail ping: Server 2 checked when above passed but failed and more 20 chars
+2017-08-09 19:06:13,377 [ 12158] DEBUG   [ping_server] Cannot open stop-alert-file
+2017-08-09 19:06:13,377 [ 12158] ERROR   [ping_server] ALERT ALERT ALERT: Fail ping: Server 2 checked when above passed but failed and more 20 chars
+2017-08-09 19:09:45,323 [ 24477] DEBUG   [ping_server] IP_OBJ: {1.1.1.1 ; Gateway}
+2017-08-09 19:09:47,334 [ 24477] DEBUG   [ping_server]    line: PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+2017-08-09 19:09:47,334 [ 24477] DEBUG   [ping_server]    line: 64 bytes from 1.1.1.1: icmp_seq=1 ttl=54 time=5.10 ms
+2017-08-09 19:09:47,334 [ 24477] DEBUG   [ping_server]    line: 64 bytes from 1.1.1.1: icmp_seq=2 ttl=54 time=4.98 ms
+2017-08-09 19:09:47,334 [ 24477] DEBUG   [ping_server]    line: 64 bytes from 1.1.1.1: icmp_seq=3 ttl=56 time=5.52 ms
+2017-08-09 19:09:47,334 [ 24477] DEBUG   [ping_server]    line: 
+2017-08-09 19:09:47,334 [ 24477] DEBUG   [ping_server]    line: --- 1.1.1.1 ping statistics ---
+2017-08-09 19:09:47,335 [ 24477] DEBUG   [ping_server]    line: 3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+2017-08-09 19:09:47,335 [ 24477] DEBUG   [ping_server]    line: rtt min/avg/max/mdev = 4.988/5.205/5.521/0.228 ms
+2017-08-09 19:09:47,335 [ 24477] DEBUG   [ping_server]    line: 
+2017-08-09 19:09:47,335 [ 24477] INFO    [ping_server] [             Gateway] First check ok.
+2017-08-09 19:09:47,427 [ 24581] DEBUG   [ping_server] IP_OBJ: {8.8.8.8 ; Server 1 checked when passed}
+2017-08-09 19:09:47,469 [ 24591] DEBUG   [ping_server] IP_OBJ: {1.2.3.4 ; Server 2 checked when above passed but failed and more 20 chars}
+2017-08-09 19:09:47,490 [ 24610] DEBUG   [ping_server] IP_OBJ: {None ; None}
+2017-08-09 19:09:47,490 [ 24610] ERROR   [ping_server] Wrong def: 
+2017-08-09 19:09:47,490 [ 24610] ERROR   [ping_server] ALERT ALERT ALERT: Wrong def: 
+2017-08-09 19:09:47,505 [ 24600] DEBUG   [ping_server] IP_OBJ: {8.8.4.4 ; Server 3 is swaped name}
+2017-08-09 19:09:49,498 [ 24581] DEBUG   [ping_server]    line: PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2017-08-09 19:09:49,507 [ 24581] DEBUG   [ping_server]    line: 64 bytes from 8.8.8.8: icmp_seq=1 ttl=43 time=57.5 ms
+2017-08-09 19:09:49,509 [ 24581] DEBUG   [ping_server]    line: 64 bytes from 8.8.8.8: icmp_seq=2 ttl=43 time=57.4 ms
+2017-08-09 19:09:49,509 [ 24581] DEBUG   [ping_server]    line: 64 bytes from 8.8.8.8: icmp_seq=3 ttl=43 time=57.3 ms
+2017-08-09 19:09:49,509 [ 24581] DEBUG   [ping_server]    line: 
+2017-08-09 19:09:49,509 [ 24581] DEBUG   [ping_server]    line: --- 8.8.8.8 ping statistics ---
+2017-08-09 19:09:49,510 [ 24581] DEBUG   [ping_server]    line: 3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+2017-08-09 19:09:49,510 [ 24581] DEBUG   [ping_server]    line: rtt min/avg/max/mdev = 57.362/57.472/57.595/0.095 ms
+2017-08-09 19:09:49,510 [ 24581] DEBUG   [ping_server]    line: 
+2017-08-09 19:09:49,510 [ 24581] INFO    [ping_server] [Server 1 checked whe] First check ok.
+2017-08-09 19:09:49,543 [ 24600] DEBUG   [ping_server]    line: PING 8.8.4.4 (8.8.4.4) 56(84) bytes of data.
+2017-08-09 19:09:49,543 [ 24600] DEBUG   [ping_server]    line: 64 bytes from 8.8.4.4: icmp_seq=1 ttl=56 time=28.4 ms
+2017-08-09 19:09:49,544 [ 24600] DEBUG   [ping_server]    line: 64 bytes from 8.8.4.4: icmp_seq=2 ttl=56 time=28.2 ms
+2017-08-09 19:09:49,544 [ 24600] DEBUG   [ping_server]    line: 64 bytes from 8.8.4.4: icmp_seq=3 ttl=56 time=28.5 ms
+2017-08-09 19:09:49,544 [ 24600] DEBUG   [ping_server]    line: 
+2017-08-09 19:09:49,544 [ 24600] DEBUG   [ping_server]    line: --- 8.8.4.4 ping statistics ---
+2017-08-09 19:09:49,544 [ 24600] DEBUG   [ping_server]    line: 3 packets transmitted, 3 received, 0% packet loss, time 2001ms
+2017-08-09 19:09:49,544 [ 24600] DEBUG   [ping_server]    line: rtt min/avg/max/mdev = 28.294/28.444/28.584/0.228 ms
+2017-08-09 19:09:49,544 [ 24600] DEBUG   [ping_server]    line: 
+2017-08-09 19:09:49,544 [ 24600] INFO    [ping_server] [Server 3 is swaped n] First check ok.
+2017-08-09 19:09:59,478 [ 24591] DEBUG   [ping_server]    line: PING 1.2.3.4 (1.2.3.4) 56(84) bytes of data.
+2017-08-09 19:09:59,479 [ 24591] DEBUG   [ping_server]    line: 
+2017-08-09 19:09:59,479 [ 24591] DEBUG   [ping_server]    line: --- 1.2.3.4 ping statistics ---
+2017-08-09 19:09:59,479 [ 24591] DEBUG   [ping_server]    line: 3 packets transmitted, 0 received, 100% packet loss, time 2004ms
+2017-08-09 19:09:59,479 [ 24591] DEBUG   [ping_server] Found lost package.
+2017-08-09 19:09:59,479 [ 24591] INFO    [ping_server] [Server 2 checked whe] First check failed.
+2017-08-09 19:09:59,479 [ 24591] INFO    [ping_server] [Server 2 checked whe] Looping check started...
+2017-08-09 19:10:14,519 [ 24591] DEBUG   [ping_server]    line: PING 1.2.3.4 (1.2.3.4) 56(84) bytes of data.
+2017-08-09 19:10:14,520 [ 24591] DEBUG   [ping_server]    line: 
+2017-08-09 19:10:14,520 [ 24591] DEBUG   [ping_server]    line: --- 1.2.3.4 ping statistics ---
+2017-08-09 19:10:14,521 [ 24591] DEBUG   [ping_server]    line: 3 packets transmitted, 0 received, 100% packet loss, time 2032ms
+2017-08-09 19:10:14,521 [ 24591] DEBUG   [ping_server] Found lost package.
+2017-08-09 19:10:14,522 [ 24591] INFO    [ping_server] [Server 2 checked whe] ... failed (0 passed - 1 failed)
+2017-08-09 19:10:29,560 [ 24591] DEBUG   [ping_server]    line: PING 1.2.3.4 (1.2.3.4) 56(84) bytes of data.
+2017-08-09 19:10:29,560 [ 24591] DEBUG   [ping_server]    line: 
+2017-08-09 19:10:29,561 [ 24591] DEBUG   [ping_server]    line: --- 1.2.3.4 ping statistics ---
+2017-08-09 19:10:29,561 [ 24591] DEBUG   [ping_server]    line: 3 packets transmitted, 0 received, 100% packet loss, time 2030ms
+2017-08-09 19:10:29,562 [ 24591] DEBUG   [ping_server] Found lost package.
+2017-08-09 19:10:29,563 [ 24591] INFO    [ping_server] [Server 2 checked whe] ... failed (0 passed - 2 failed)
+2017-08-09 19:10:29,563 [ 24591] WARNING [ping_server] [Server 2 checked whe] looping check total: FAIL.
+2017-08-09 19:10:29,564 [ 24591] ERROR   [ping_server] Fail ping: Server 2 checked when above passed but failed and more 20 chars
+2017-08-09 19:10:29,565 [ 24591] DEBUG   [ping_server] Cannot open stop-alert-file
+2017-08-09 19:10:29,565 [ 24591] ERROR   [ping_server] ALERT ALERT ALERT: Fail ping: Server 2 checked when above passed but failed and more 20 chars
+2017-08-09 19:11:29,993 [ 29854] INFO    [ping_server] [             Gateway] First check ok.
+2017-08-09 19:11:32,155 [ 29958] INFO    [ping_server] [Server 1 checked whe] First check ok.
+2017-08-09 19:11:32,163 [ 29978] INFO    [ping_server] [Server 3 is swaped n] First check ok.
+2017-08-09 19:11:42,147 [ 29967] INFO    [ping_server] [Server 2 checked whe] First check failed.
+2017-08-09 19:11:42,148 [ 29967] INFO    [ping_server] [Server 2 checked whe] Looping check started...
+2017-08-09 19:11:57,186 [ 29967] INFO    [ping_server] [Server 2 checked whe] ... failed (0 passed - 1 failed)
+2017-08-09 19:12:12,225 [ 29967] INFO    [ping_server] [Server 2 checked whe] ... failed (0 passed - 2 failed)
+2017-08-09 19:12:12,225 [ 29967] WARNING [ping_server] [Server 2 checked whe] looping check total: FAIL.
+2017-08-09 19:12:12,226 [ 29967] ERROR   [ping_server] Fail ping: Server 2 checked when above passed but failed and more 20 chars
+2017-08-09 19:12:12,226 [ 29967] ERROR   [ping_server] ALERT ALERT ALERT: Fail ping: Server 2 checked when above passed but failed and more 20 chars
+2017-08-09 19:20:18,134 [ 25777] INFO    [ping_server] [             Gateway] First check ok.
+2017-08-09 19:20:20,287 [ 25989] INFO    [ping_server] [Server 3 is swaped n] First check ok.
+2017-08-09 19:20:20,315 [ 25972] INFO    [ping_server] [Server 1 checked whe] First check ok.
+2017-08-09 19:20:30,279 [ 25982] INFO    [ping_server] [Server 2 checked whe] First check failed.
+2017-08-09 19:20:30,279 [ 25982] INFO    [ping_server] [Server 2 checked whe] Looping check started...
+2017-08-09 19:20:45,319 [ 25982] INFO    [ping_server] [Server 2 checked whe] ... failed (0 passed - 1 failed)
+2017-08-09 19:21:00,359 [ 25982] INFO    [ping_server] [Server 2 checked whe] ... failed (0 passed - 2 failed)
+2017-08-09 19:21:00,359 [ 25982] WARNING [ping_server] [Server 2 checked whe] looping check total: FAIL.
+2017-08-09 19:21:00,360 [ 25982] ERROR   [ping_server] Fail ping: Server 2 checked when above passed but failed and more 20 chars
+2017-08-09 19:21:00,360 [ 25982] ERROR   [ping_server] ALERT ALERT ALERT: Fail ping: Server 2 checked when above passed but failed and more 20 chars

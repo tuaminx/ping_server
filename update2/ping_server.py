@@ -52,9 +52,6 @@ class Ping(object):
         for line in ping_output.split('\n'):
             log.debug('   line: %s' % line)
             # When not receiving all packet
-            if 'Destination Host Unreachable' in line:
-                log.debug('Destination Host Unreachable')
-                return False
             if '%s packets transmitted' % self.count in line \
                     and ', 0% packet loss' not in line:
                 log.debug('Found lost package.')
@@ -214,19 +211,8 @@ class Watcher(object):
 
 
 def send_alert(message):
-    try:
-        log.error('ALERT ALERT ALERT: %s' % message)
-    except NameError:
-        print('ALERT ALERT ALERT: %s' % message)
-        pass
-    palert = subprocess.Popen(["echo %s" % message],
-                              stdout=subprocess.PIPE,
-                              shell=True)
-    time = Timer(30, palert.kill)
-    time.start()
-    _, _ = palert.communicate()
-    if time.is_alive():
-        time.cancel()
+    print('ALERT ALERT ALERT: %s' % message)
+
 
 def get_config(json_config, key, default_value=None):
     try:

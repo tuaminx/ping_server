@@ -1,5 +1,12 @@
 # Ping server
 
+This is a support for a sys-admin.
+
+Sys-admin adds a list of servers which he/she wants to check status of the connection (failed ping or slow ping).
+A linux cron-job will call the `ping_server` script frequesntly by the interval in its setting. When a ping to a server is failed, `ping_server` script will alert to Sys-admin.
+`ping_server` script can recognize a gateway and ping it first. `ping_server` script just ping the rest after it know the gateway connection is good.
+`ping_server` call a linux command to send an alert to Sys-admin, the command is well-prepared by ays-admin (his/her major). e.g: email sending, phone call, sms sending, im message sending, etc.
+
 Use cron job to ping multiple servers and send alert
 
 ## Require:

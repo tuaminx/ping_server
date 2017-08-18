@@ -13,6 +13,7 @@ from threading import Timer
 
 WORKING_DIR = os.path.dirname(os.path.realpath(__file__))
 
+ALERT_FILE_HEADING = 'alert_'
 
 class PingTimeout(Exception):
     pass
@@ -167,6 +168,30 @@ class Watcher(object):
             log.debug('Cannot open stop-alert-file')
             pass
         send_alert(mess)
+        try:
+            for ip in self.fail_list:
+                file_path = os.path.join(WORKING_DIR, '%s%s' %
+                                         (ALERT_FILE_HEADING, ip['address']))
+                with open(file_path, 'a') as fp:
+                    fp.close()
+                log.debug('created %s' % file_path)
+        except Exception:
+            log.warning('fail_alert wrong in processing alert_<ip> file.')
+            pass
+
+    def ok_alert(self):
+        try:
+            for ip in self.ok_list:
+                file_path = os.path.join(WORKING_DIR, '%s%s' %
+                                         (ALERT_FILE_HEADING, ip['address']))
+                if os.path.isfile(file_path):
+                    mess = '%s back to NORMAL' % ip['name']
+                    send_alert(mess)
+                    log.debug(mess)
+                    os.remove(file_path)
+        except Exception:
+            log.warning('ok_alert wrong in processing alert_<ip> file.')
+            pass
 
     def looping_check(self, ip, cb_ok, cb_fail):
         """Do the looping check each 1 minute."""
@@ -209,7 +234,8 @@ class Watcher(object):
         if len(self.fail_list):
             self.fail_alert()
             return 1
-        else:
+        if len(self.ok_list):
+            self.ok_alert()
             return 0
 
 

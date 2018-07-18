@@ -11,21 +11,34 @@ import gevent
 from datetime import datetime
 from threading import Timer
 
+from send_alert import send_alert
+
 WORKING_DIR = os.path.dirname(os.path.realpath(__file__))
 
 ALERT_FILE_HEADING = 'alert_'
+
 
 class PingTimeout(Exception):
     pass
 
 
+class PingError(Exception):
+    pass
+
+
 class Ping(object):
 
-    def __init__(self, count, threshold, timeout, server=None):
+    def __init__(self, count, threshold, timeout, ping_src_ip=None,
+                 server=None):
         self.server = server
         self.count = count
         self.time_threshold = threshold
         self.timeout = timeout
+        try:
+            socket.inet_aton(ping_src_ip)
+            self.ping_src_ip = ping_src_ip
+        except (socket.error, TypeError):
+            self.ping_src_ip = None
 
     def ping_server(self, ip=None):
         ping_ip = None
@@ -35,17 +48,21 @@ class Ping(object):
             ping_ip = self.server
 
         if ping_ip:
-            pping = subprocess.Popen(['/bin/ping', str(ping_ip),
-                                      '-c', str(self.count)],
+            ping_cmd = ['/bin/ping', '-c', str(self.count)]
+            if self.ping_src_ip:
+                ping_cmd.extend(['-I', self.ping_src_ip])
+            ping_cmd.append(str(ping_ip))
+            log.debug("ping linux cmd: %s", ' '.join(ping_cmd))
+            pping = subprocess.Popen(ping_cmd,
                                      stdout=subprocess.PIPE)
             time = Timer(self.timeout, pping.kill)
             time.start()
-            out, code = pping.communicate()
+            out, _ = pping.communicate()
             if time.is_alive():
                 time.cancel()
             else:
                 raise PingTimeout
-            return out, code
+            return out
         else:
             raise ValueError('IP was not defined')
 
@@ -60,11 +77,14 @@ class Ping(object):
                     and ', 0% packet loss' not in line:
                 log.debug('Found lost package.')
                 return False
-            if 'icmp_seq=' in line and \
-                    float(line.split()[6].split('=')[1]) > self.time_threshold:
-                log.debug('Found over threshold ping.')
-                return False
-        return True
+            if 'icmp_seq=' in line:
+                respond_time = float(line.split()[6].split('=')[1])
+                if respond_time >= self.time_threshold:
+                    log.debug('Found over threshold ping.')
+                    return False
+                else:
+                    return True
+        return False
 
 
 class Watcher(object):
@@ -76,7 +96,8 @@ class Watcher(object):
         self.pinger = Ping(
             get_config(self.json_config, 'ping_package_number', 3),
             get_config(self.json_config, 'ping_slow_threshold', 500),
-            get_config(self.json_config, 'ping_timeout', 30)
+            get_config(self.json_config, 'ping_timeout', 30),
+            get_config(self.json_config, 'ping_source_ip', None)
         )
 
         self.fail_threshold = get_config(self.json_config,
@@ -98,7 +119,7 @@ class Watcher(object):
                                          self.ip_obj['name']))
         if self.ip_obj['address'] is None or self.ip_obj['name'] is None:
             log.error('Wrong def: %s' % ip_obj)
-            send_alert('Wrong def: %s' % ip_obj)
+            send_alert('Wrong def: %s' % ip_obj, log)
             exit(1)
 
     def get_ip_object(self, ip_obj):
@@ -111,24 +132,26 @@ class Watcher(object):
                 name = spliter[1]
             except IndexError:
                 pass
-        except socket.error:
+        except (socket.error, TypeError):
             try:
                 socket.inet_aton(spliter[1])
                 ip = spliter[1]
                 name = spliter[0]
-            except (socket.error, IndexError):
+            except (socket.error, IndexError, TypeError):
                 pass
         return ip, name
 
     def check(self, ip):
         """Ping to server and check result"""
         try:
-            out, _ = self.pinger.ping_server(ip['address'])
+            out = self.pinger.ping_server(ip['address'])
             if not self.pinger.is_result_ok(out):
                 return False
-                # bot.respond(bot.get_admin_channel(), "res is not ok")
         except PingTimeout, _:
             log.warning('Ping result TIMEOUT')
+            return False
+        except PingError, _:
+            log.warning('Ping command ERROR')
             return False
         except ValueError, e:
             log.warning('Ping result ValueError: %s' % e.message)
@@ -167,7 +190,7 @@ class Watcher(object):
         except Exception:
             log.debug('Cannot open stop-alert-file')
             pass
-        send_alert(mess)
+        send_alert(mess, log)
         try:
             for ip in self.fail_list:
                 file_path = os.path.join(WORKING_DIR, '%s%s' %
@@ -186,7 +209,7 @@ class Watcher(object):
                                          (ALERT_FILE_HEADING, ip['address']))
                 if os.path.isfile(file_path):
                     mess = '%s back to NORMAL' % ip['name']
-                    send_alert(mess)
+                    send_alert(mess, log)
                     log.debug(mess)
                     os.remove(file_path)
         except Exception:
@@ -238,21 +261,6 @@ class Watcher(object):
             self.ok_alert()
             return 0
 
-
-def send_alert(message):
-    try:
-        log.error('ALERT ALERT ALERT: %s' % message)
-    except NameError:
-        print('ALERT ALERT ALERT: %s' % message)
-        pass
-    palert = subprocess.Popen(["echo %s" % message],
-                              stdout=subprocess.PIPE,
-                              shell=True)
-    time = Timer(30, palert.kill)
-    time.start()
-    _, _ = palert.communicate()
-    if time.is_alive():
-        time.cancel()
 
 def get_config(json_config, key, default_value=None):
     try:
